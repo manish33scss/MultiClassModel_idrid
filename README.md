@@ -44,7 +44,7 @@ We use a **balanced metadata JSON** (`balanced_idrid_metadata.json`) to:
 
 ---
 
-##  Evaluation
+#  Evaluation
 
 - **Classification**:
   - Accuracy, Precision, Recall, F1 (macro)
@@ -61,7 +61,7 @@ We use a **balanced metadata JSON** (`balanced_idrid_metadata.json`) to:
 
 ---
 
-##  Inference
+#  Inference
 
 - Predicts 20 random samples from test set.
 - Displays:
@@ -72,4 +72,10 @@ We use a **balanced metadata JSON** (`balanced_idrid_metadata.json`) to:
 
 ---
 
+#  File Structure 
 
+- Final_pipeline.ipynb : this is the final notebook contains, preprocessing, dataloaders, model components and pipeline, training loop, evaluation and prediction.
+- Visualize_segmentation - This file is made for visualization of segmentation masks.
+- Seg.py - This is individual script for seg only,to sanity check my backbone.
+- Cls.py - This is individual script for cls only,to sanity check my backbone. 
+---
