@@ -38,7 +38,7 @@ We use a **balanced metadata JSON** (`balanced_idrid_metadata.json`) to:
   - Gating: `CrossEntropy` (supervised routing) + Entropy Regularization
 - **Weighted loss contribution** based on task presence in batch.
 - **Training Enhancements**:
-  - Color jitter, CLAHE
+  - Color jitter
   - Per-batch & per-epoch logging
   - Epoch-wise loss/accuracy tracking
 
@@ -74,7 +74,7 @@ We use a **balanced metadata JSON** (`balanced_idrid_metadata.json`) to:
 
 #  File Structure 
 
-- Final_pipeline.ipynb : this is the final notebook contains, preprocessing, dataloaders, model components and pipeline, training loop, evaluation and prediction.
+- Final_512.ipynb : this is the final notebook contains, preprocessing, dataloaders, model components and pipeline, training loop, evaluation and prediction. trained on 512x512 images.
 - Visualize_segmentation - This file is made for visualization of segmentation masks.
 - Seg.py - This is individual script for seg only,to sanity check my backbone.
 - Cls.py - This is individual script for cls only,to sanity check my backbone. 
